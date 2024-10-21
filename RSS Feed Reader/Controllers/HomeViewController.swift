@@ -47,7 +47,6 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             detailVC.overrideTitle = "Feed \(indexPath.row)"
             navigationController?.pushViewController(detailVC, animated: true)
         }
-      
     }
     
 }

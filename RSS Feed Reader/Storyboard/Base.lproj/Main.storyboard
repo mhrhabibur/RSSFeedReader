@@ -79,6 +79,43 @@
             </objects>
             <point key="canvasLocation" x="1811" y="-27"/>
         </scene>
+        <!--Search View Controller-->
+        <scene sceneID="owl-rs-V8I">
+            <objects>
+                <viewController storyboardIdentifier="SearchVC" id="QDA-kO-QeH" customClass="SearchViewController" customModule="RSS_Feed_Reader" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="evW-44-hxV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter RSS Feed" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vYP-2o-1bo">
+                                <rect key="frame" x="20" y="351.66666666666669" width="353" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="A2G-ab-YRg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dsv-ty-6Rv">
+                                <rect key="frame" x="157.66666666666666" y="405.66666666666669" width="78" height="41"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Search"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dsJ-Eq-a7D"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Dsv-ty-6Rv" firstAttribute="centerY" secondItem="evW-44-hxV" secondAttribute="centerY" id="1eF-Pr-3UY"/>
+                            <constraint firstItem="Dsv-ty-6Rv" firstAttribute="top" secondItem="vYP-2o-1bo" secondAttribute="bottom" constant="20" id="Hyc-QK-LdW"/>
+                            <constraint firstItem="vYP-2o-1bo" firstAttribute="leading" secondItem="dsJ-Eq-a7D" secondAttribute="leading" constant="20" id="WFH-OY-sCs"/>
+                            <constraint firstItem="dsJ-Eq-a7D" firstAttribute="trailing" secondItem="vYP-2o-1bo" secondAttribute="trailing" constant="20" id="pn9-Ul-kUd"/>
+                            <constraint firstItem="Dsv-ty-6Rv" firstAttribute="centerX" secondItem="evW-44-hxV" secondAttribute="centerX" id="rzJ-jV-DX0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LmL-er-X2H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2660" y="-27"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="K1z-3e-ljJ">
             <objects>
